@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    gap:10px;
+    margin-top: 50px;;
+}
+img{
+    height:100%;
+    width:100%;
+}
+div{
+    position: relative;
+    gap:20px;
+}
+p{
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:black ;
+    color: white;
+    padding:10px;
+    font-size:2rem ;
+}
